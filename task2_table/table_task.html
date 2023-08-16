@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorFul Table</title>
+    <style>
+        table,th,td,tr{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Rows 6 and cols 10 -->
+    <table cellpadding="4">
+        <tr>
+            <th>ACC</th>
+            <th></th>
+            <th bgcolor="#26b3ff">column <br>header 1a</th>
+            <th bgcolor="#26b3ff">column <br>header 1b</th>
+            <th bgcolor="#26b3ff">column <br>header 1c</th>
+            <th bgcolor="#26b3ff">column <br>header 1d</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th bgcolor="#26b3ff">column <br>header 1a</th>
+            <th bgcolor="#26b3ff">column <br>header 1b</th>
+            <th bgcolor="#26b3ff">column <br>header 1c</th>
+            <th bgcolor="#26b3ff">column <br>header 1d</th>
+        </tr>
+        <tr>
+            <td rowspan="4" bgcolor="#e7ff30">Row<br> header 1a</td>
+            <td bgcolor="#e7ff30">Row header <br>2a</td>
+            <td>Data col1 <br>row 1</td>
+            <td>Data col2 <br>row 1</td>
+            <td>Data col3 <br>row 1</td>
+            <td>Data col4 <br>row 1</td>
+
+        </tr>
+        <tr>
+            
+            <td bgcolor="#e7ff30">Row header<br> 2b</td>
+            <td>Data col1 <br>row 2</td>
+            <td>Data col2 <br>row 2</td>
+            <td>Data col3 <br>row 2</td>
+            <td>Data col4 <br>row 2</td>
+
+        </tr>
+        <tr>
+            
+            <td bgcolor="#e7ff30">Row header <br>2c</td>
+            <td>Data col1 <br>row 3</td>
+            <td>Data col2 <br>row 3</td>
+            <td>Data col3 <br>row 3</td>
+            <td>Data col4 <br>row 3</td>
+
+        </tr>
+        <tr>
+            
+            <td colspan="3" align="right" bgcolor="#e7ff30">Summary total subtotal</td>
+
+            <td>Total 1a</td>
+            <td>Total 2a</td>
+
+        </tr>
+        <tr>
+            <td rowspan="3" bgcolor="#e7ff30">Row header<br> 1b</td>
+            <td>Row header <br>2d</td>
+            <td>Data col1 <br>row 1</td>
+            <td>Data col2 <br>row 1</td>
+            <td>Data col3 <br>row 1</td>
+            <td>Data col4 <br>row 1</td>
+
+        </tr>
+        <tr>
+            
+            <td bgcolor="#e7ff30">Row header<br> 2e</td>
+            <td>Data col1 <br>row 2</td>
+            <td>Data col2 <br>row 2</td>
+            <td>Data col3 <br>row 2</td>
+            <td>Data col4 <br>row 2</td>
+
+        </tr>
+        <tr>
+            
+            <td colspan="3" align="right" bgcolor="#e7ff30">Summary sub-total</td>
+            <td>Total 1b</td>
+            <td>Total 2b</td>
+
+        </tr>
+        <tr>
+            
+            <td colspan="4" align="right" bgcolor="#e7ff30">Grand total</td>
+            <td>Grant-total</td>
+            <td>Grant-total</td>
+        </tr>
+    </table>
+
+</body>
+</html>
