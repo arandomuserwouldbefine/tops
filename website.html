@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    height: 30px;
+    background-color: blue;
+}
+.icons{
+    margin-top: 5px;
+    margin-left: 130px;
+    color: #fcc203;
+    font-size: 15px;
+}
+span{
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+.btn{
+    background-color: #fcc203;
+    margin-left: 550px;
+    height: inherit;
+    width: 100px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+.navigate{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+ul{
+    display: flex;
+    margin-left: 300px;
+}
+li{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px; 
+}
+
+#bett{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+#mastery{
+    margin-left: 15px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+#image{
+    margin-left: 100px;
+}
+.fa-caret-down{
+    font-size: 10px;
+}
+.search{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 230px;
+    border: 1px solid black;
+}
+input{
+    margin: 10px;
+    border: none;
+    background: transparent;
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: blue;
+}
+.fa-magnifying-glass{
+    cursor: pointer;
+}
+.main{
+    background-image: url('https://images.pond5.com/4k-teacher-adult-education-class-073471246_prevstill.jpeg');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#better{
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+}
+.btn-read{
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    top: 130px;
+    left: 45%;
+    font-weight: 500;
+    padding: 15px 20px 15px 20px;    
+    background-color: #fcc203;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+}
+
+
+.better{
+    color: white;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: center;    
+}
+
+.better span{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    top: 100px;
+    font-size: 40px;
+}
+
+.card-icon{
+    font-size: 25px;
+    color: #fcc203;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -110px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(30, 48, 80);
+}
+
+.one{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+    box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+}
+
+.two{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+    box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+}
+
+
+.three{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+    box-shadow: 14px 14px 35px -18px rgba(0,0,0,0.75);
+}
+
+.card-desc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.card-icon, .card-title, .card-desc,.read-button{
+    margin-top: 30px;
+}
+
+
+.read-button{
+    background-color: #fcc203;
+    padding: 5px 10px 5px 10px;    
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+    </style>
+</head>
+
+<body>
+<div class="head">
+    <i class="fa-solid fa-phone icons "><span class="icon-desc">+910000000000</span></i>
+    <i class="fa-solid fa-envelope icons"><span class="icon-desc">hello@gmail.com</span></i>
+    <div class="btn">
+        Apply Now
+    </div>
+</div>
+
+<div class="navigate">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" height="30px" width="30px" id="image"><span id="mastery">MASTERY</span>
+    <ul type="none">
+        <li>Home</li>
+        <li>About</li>
+        <li>Pages <i class="fa-solid fa-caret-down"></i></li>
+        <li>Contact</li>
+    </ul>
+    <div class="search">
+        <input type="text" id="search-bar"  placeholder="Search here..."><i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+</div>
+
+
+<div class="main">
+    <div class="better">
+        <span id="bett">Better Education For A <br>Better World</span>
+    </div>
+    <button class="btn-read">Read more</button>
+</div>
+
+<div class="cards">
+    <div class="one">
+        <i class="fa-solid fa-laptop card-icon"></i>
+        <span class="card-title">Learn Courses Online</span>
+        <p class="card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vitae corrupti, rerum est deleniti possimus illum et, distinctio expedita fuga culpa sed aliquid nostrum natus a, dicta odit quod nisi.</p>
+        <button class="read-button">Read More</button>
+    </div>
+    <div class="two">
+        <i class="fa-solid fa-user card-icon"></i>
+        <span class="card-title">Highly Qualified Teacher</span>
+        <p class="card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vitae corrupti, rerum est deleniti possimus illum et, distinctio expedita fuga culpa sed aliquid nostrum natus a, dicta odit quod nisi.</p>
+        <button class="read-button">Read More</button>
+    </div>
+    <div class="three">
+        <i class="fa-solid fa-book card-icon"></i>
+        <span class="card-title">Books Libary & Stores</span>
+        <p class="card-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vitae corrupti, rerum est deleniti possimus illum et, distinctio expedita fuga culpa sed aliquid nostrum natus a, dicta odit quod nisi.</p>
+        <button class="read-button">Read More</button>
+    </div>
+</div>
+
+
+</body>
+
+</html>
