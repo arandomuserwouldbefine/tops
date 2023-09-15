@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Bar Animation</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(67, 67, 67);
+        }
+        .main {
+            height: 634px;
+            display: flex;
+            color: white;
+            justify-content: center;
+            flex-direction: column;
+            width: 650px;
+        }
+        .skill-bar-1{
+            height: 9px;
+            width: 650px;
+            border-radius: 15px;
+            animation: html 3s steps(8) infinite;
+        }
+        .skill-bar-2{
+            border-radius: 15px;
+            height: 9px;
+            width: 650px;
+            animation: css 3s steps(8) infinite;
+        }
+        .skill-bar-3{
+            border-radius: 15px;
+            height: 9px;
+            width: 650px;
+            animation: js 3s steps(8) infinite;
+        }
+        .skill-bar-4{
+            border-radius: 15px;
+            height: 9px;
+            width: 650px;
+            border-radius: 15px;
+            animation: php 3s steps(8) infinite;
+            
+        }
+        .skill{
+            height: 5px;
+            width: 650px;
+            overflow-x: hidden;
+            border: 2px solid grey;
+            border-radius: 15px;
+        }
+
+        @keyframes html {
+            from{
+                width: 0%;
+                background-color: rgb(255, 226, 3);
+
+            }
+            to{
+                width: 90%;
+                background-color: rgb(255, 226, 3);;
+            }
+        }
+
+        
+        @keyframes css {
+            from{
+                width: 0%;
+                border: 2px solid grey;
+                background-color: rgb(255, 226, 3);
+
+            }
+            to{
+                width: 75%;
+                background-color: rgb(255, 226, 3);;
+            }
+        }
+
+        @keyframes css {
+            from{
+                width: 0%;
+                background-color: rgb(255, 226, 3);
+
+            }
+            to{
+                width: 50%;
+                background-color: rgb(255, 226, 3);;
+            }
+        }
+
+        @keyframes js {
+            from{
+                width: 0%;
+                background-color: rgb(255, 226, 3);
+
+            }
+            to{
+                width: 100%;
+                background-color: rgb(255, 226, 3);;
+            }
+        }
+            
+        @keyframes php {
+            from{
+                width: 0%;
+                background-color: rgb(255, 226, 3);
+
+            }
+            to{
+                width: 77%;
+                background-color: rgb(255, 226, 3);;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+<div class="main">
+    <h1>Skill Bar</h1>
+    
+    <h3>Python</h3>
+    <div class="skill-bar-4">
+        <div class="skill"></div>
+    </div>
+
+
+    <h3>C++</h3>
+    <div class="skill-bar-4">
+        <div class="skill"></div>
+    </div>
+
+    <h3>HTML</h3>
+    <div class="skill-bar-1">
+        <div class="skill"></div>
+    </div>
+
+
+
+    <h3>CSS</h3>
+    <div class="skill-bar-2">
+        <div class="skill"></div>
+    </div>
+
+    
+    <h3>JS</h3>
+    <div class="skill-bar-3">
+        <div class="skill"></div>
+    </div>
+
+    
+    <h3>PHP</h3>
+    <div class="skill-bar-4">
+        <div class="skill"></div>
+    </div>
+
+    
+</div>
+
+
+</body>
+</html>
