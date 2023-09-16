@@ -1,0 +1,839 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    color: white;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    display: flex;
+}
+
+.main-title{
+    margin-left: 20px;
+}
+ul{
+    margin-left: 800px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin-right: 30px;
+}
+
+.main{
+    margin: 20px ;
+    display: flex;
+}
+.left{
+    margin-right: 10px;
+    height: 91.1vh;
+    width: 80%;
+    
+}
+
+.main-heading,.para-heading{
+    margin-bottom: 20px;
+}
+.card-para{
+    margin: 20px;
+}
+.right{
+    height: 91.1vh;
+    width: 40%;
+
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+.right-para{
+    margin: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c{
+    margin: 20px;
+}
+.card-title{
+    font-size: 20px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.card1{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.card2{
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.card3{
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.card4{
+
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.card5{
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .head {
+        width: 100%; /* Adjust the width to fill the screen */
+        height: 30px;
+        font-size: 10px;
+        align-items: center;
+        background-color: black;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    ul {
+        margin-left: 30%;
+        font-size: 8px;
+        display: flex;
+        /* Other styles */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .left{
+        width: 100%;
+        margin-right: 0px;
+        height: 100%;
+        
+    }
+    .right-para{
+        margin-right: 0px;
+    }
+    .para-heading{
+        width: 90%;
+    }
+    .card-para{
+        margin-right: 0px;
+    }
+    .right{
+        height: 100%;
+        width: 100%;
+        color: white;
+        height: 500px;
+        background-color: rgb(36, 36, 36);
+    }
+    .c{
+        margin-right: 0px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-title{
+        font-size: 20px;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+    .card1{
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card2{
+        margin-left: 0px;
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card3{
+        margin-left: 0px;
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card4{
+        margin-left: 0px;
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card5{
+        margin-left: 0px;
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .head {
+        width: 100%; /* Adjust the width to fill the screen */
+        height: 40px;
+        font-size: 12px;
+        align-items: center;
+        background-color: black;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    ul {
+        margin-left: 30%;
+        font-size: 10px;
+        display: flex;
+
+        /* Other styles */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        padding: 10px;
+        margin-right: 0px;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .left{
+        width: 100%;
+        margin-right: 0px;
+        height: 100%;
+        
+    }
+    .right-para{
+        margin-right: 0px;
+    }
+    .para-heading{
+        width: 100%;
+    }
+    .card-para{
+        margin-right: 0px;
+    }
+    .right{
+        height: 100%;
+        width: 95%;
+        color: white;
+        font-size: 20px;
+        height: 500px;
+        background-color: rgb(36, 36, 36);
+    }
+    .c{
+        margin-right: 0px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-title{
+        font-size: 20px;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+    .card1{
+        height: 200px;
+        width: 95%;
+/*        margin-right: 20px;*/
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card2{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card3{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+/*        margin-right: 20px;*/
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card4{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card5{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+/*        margin-right: 20px;*/
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .head {
+        width: 100%; /* Adjust the width to fill the screen */
+        height: 60px;
+        font-size: 18px;
+        align-items: center;
+        background-color: black;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    ul {
+        margin-left: 30%;
+        font-size: 15px;
+        display: flex;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        padding: 10px;
+        margin-right: 0px;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        font-size: 20px;
+    }
+    .left{
+        width: 100%;
+        margin-right: 0px;
+        height: 100%;
+        
+    }
+    .right-para{
+        margin-right: 0px;
+    }
+    .para-heading{
+        width: 90%;
+    }
+    .card-para{
+        margin-right: 0px;
+    }
+    .right{
+        height: 100%;
+        width: 95%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+
+        color: white;
+        font-size: 20px;
+        height: 500px;
+        background-color: rgb(36, 36, 36);
+    }
+    .c{
+        margin-right: 0px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+
+    }
+
+    .card-title{
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    .card1{
+        height: 200px;
+        width: 95%;
+/*        margin-right: 20px;*/
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card2{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card3{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+/*        margin-right: 20px;*/
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card4{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card5{
+        margin-left: 0px;
+        height: 200px;
+        width: 95%;
+/*        margin-right: 20px;*/
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .head {
+
+        width: 100%; /* Adjust the width to fill the screen */
+        height: 40px;
+        font-size: 16px;
+        align-items: center;
+        background-color: black;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    ul {
+        margin-left: 55%;
+        font-size: 13px;
+        display: flex;
+
+        /* Other styles */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        padding: 10px;
+        margin-right: 0px;
+    }
+    
+    .main{
+        display: flex;
+        overflow-x: hidden;
+    }
+    .left{
+        width: 80%;
+        margin-right: 0px;
+        height: 100%;
+        
+    }
+    .right-para{
+        margin-right: 0px;
+    }
+    .para-heading{
+        width: 90%;
+    }
+    .card-para{
+        margin-right: 0px;
+    }
+    .right{
+        height: 100%;
+        width: 30%;
+        color: white;
+        font-size: 15px;
+        height: 500px;
+        background-color: rgb(36, 36, 36);
+    }
+    .c{
+        margin-right: 0px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-title{
+        font-size: 20px;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+    .card1{
+        height: 200px;
+        width: 200px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card2{
+        margin-left: 0px;
+        height: 200px;
+        width: 200px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card3{
+        margin-left: 0px;
+        height: 200px;
+        width: 200px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card4{
+        margin-left: 0px;
+        height: 200px;
+        width: 200px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card5{
+        margin-left: 0px;
+        height: 200px;
+        width: 200px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .head {
+        width: 100%; /* Adjust the width to fill the screen */
+        height: 40px;
+        font-size: 16px;
+        align-items: center;
+        background-color: black;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    ul {
+        margin-left: 70%;
+        font-size: 13px;
+        display: flex;
+
+        /* Other styles */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        padding: 10px;
+        margin-right: 0px;
+    }
+    
+    .main{
+        display: flex;
+        overflow-x: hidden;
+    }
+    .left{
+        width: 80%;
+        margin-right: 0px;
+        height: 100%;
+        font-size: 20px;
+        
+    }
+    .right-para{
+        margin-right: 0px;
+    }
+    .para-heading{
+        width: 90%;
+    }
+    .card-para{
+        margin-right: 0px;
+    }
+    .right{
+        height: 100%;
+        width: 30%;
+        color: white;
+        font-size: 20px;
+        height: 500px;
+        background-color: rgb(36, 36, 36);
+    }
+    .c{
+        margin-right: 0px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-title{
+        font-size: 20px;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+    .card1{
+        height: 200px;
+        width: 230px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card2{
+        margin-left: 0px;
+        height: 200px;
+        width: 230px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card3{
+        margin-left: 0px;
+        height: 200px;
+        width: 230px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card4{
+        margin-left: 0px;
+        height: 200px;
+        width: 230px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card5{
+        margin-left: 0px;
+        height: 200px;
+        width: 230px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media (min-width: 1201px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .head {
+
+        width: 100%; /* Adjust the width to fill the screen */
+        height: 40px;
+        font-size: 20px;
+        align-items: center;
+        background-color: black;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    ul {
+        margin-left: 70%;
+        font-size: 17px;
+        display: flex;
+
+        /* Other styles */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        padding: 10px;
+        margin-right: 0px;
+    }
+    
+    .main{
+        display: flex;
+        overflow-x: hidden;
+    }
+    .left{
+        width: 80%;
+        margin-right: 0px;
+        height: 100%;
+        font-size: 20px;
+        
+    }
+    .right-para{
+        margin-right: 0px;
+    }
+    .para-heading{
+        width: 90%;
+    }
+    .card-para{
+        margin-right: 0px;
+    }
+    .right{
+        height: 100%;
+        width: 30%;
+        color: white;
+        font-size: 20px;
+        height: 500px;
+        background-color: rgb(36, 36, 36);
+    }
+    .c{
+        margin-right: 0px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-title{
+        font-size: 20px;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+    .card1{
+        height: 200px;
+        width: 250px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card2{
+        margin-left: 0px;
+        height: 200px;
+        width: 250px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card3{
+        margin-left: 0px;
+        height: 200px;
+        width: 250px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card4{
+        margin-left: 0px;
+        height: 200px;
+        width: 250px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+    .card5{
+        margin-left: 0px;
+        height: 200px;
+        width: 250px;
+        margin-right: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
