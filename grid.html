@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grids CSS</title>
+	<style>
+.one{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.two{	
+	text-align: center;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 90px;
+	background: url('https://images.unsplash.com/photo-1420593248178-d88870618ca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#two1{
+	grid-row-start: 1;
+	grid-column-start: 1;
+	grid-row-end: 3;
+}
+
+#two2{
+	grid-column-start: 1;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+#two3{
+	grid-column-start: 1;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+
+
+#two4{
+	grid-column-start: 2;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+#two5{
+	grid-column-start: 2;
+	grid-row-start: 4;
+	grid-row-end:7;
+}
+
+#two6{
+	grid-row-start: 1;
+	grid-column-start: 3;
+	grid-row-end: 3;
+}
+
+#two7{
+	grid-column-start: 3;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+#two8{
+	grid-column-start: 3;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+	</style>
+</head>
+<body>
+
+
+<div class="one">
+	<div class="two" id="two1">1</div>
+	<div class="two" id="two2">2</div>
+	<div class="two" id="two3">3</div>
+	<div class="two" id="two4">4</div>
+	<div class="two" id="two5">5</div>
+	<div class="two" id="two6">6</div>
+	<div class="two" id="two7">7</div>
+	<div class="two" id="two8">8</div>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
